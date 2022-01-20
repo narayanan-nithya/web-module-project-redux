@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { connect } from 'react-redux;
 import MovieListItem from './MovieListItem';
 import MovieFooter from './MovieFooter';
 
@@ -30,5 +31,6 @@ const MovieList = (props)=> {
         </div>
     );
 }
+const 
 
-export default MovieList;
+export default connect()(MovieList);
